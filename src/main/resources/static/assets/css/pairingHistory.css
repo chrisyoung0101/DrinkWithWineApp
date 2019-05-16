@@ -1,0 +1,40 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 40px;
+  background-color: #fff;
+  color: #444;
+  font: 2em Sansita, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper > * {
+  flex: 1 1 230px;
+  border: 2px solid #ed786a;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  
+}
+
+.wrapper1 > * {
+  flex: 1 1 230px;
+  border: 2px solid #ed786a;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  
+}
+
+
+
+
+
